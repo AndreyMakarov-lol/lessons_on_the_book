@@ -81,3 +81,4 @@ countries.remove('usa')
 print(countries)
 print(len(countries))
 print(countries)
+#8
