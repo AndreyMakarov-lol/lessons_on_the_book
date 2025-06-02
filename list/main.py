@@ -83,7 +83,26 @@ countries = ['tailand', 'germany', 'usa',  'canada', 'china']
 # print(countries)
 #8
 #4.1-4.2
-pizzas=['piperoni', 'margarita', 'bianca']
-for pizza in pizzas:
-    print(f'this my like type pizza {pizza.title()}\n')
-print('I like pizza')
+# pizzas=['piperoni', 'margarita', 'bianca']
+# for pizza in pizzas:
+#     print(f'this my like type pizza {pizza.title()}\n')
+# print('I like pizza')
+
+#4.3-4.9
+# for item in range(1,21):
+# #     print(item)
+#
+# mil = list(range(1,1000001))
+# # for item in mil:
+# #     print(item)
+# print(max(mil), min(mil), sum(mil))
+# # for item in range(1,21,2):
+# #     print(item)
+# three = list(range(3,31,3))
+# print(three)
+# for item in three:
+#     print(item)
+# for item in range(1,11):
+#     print(item**3)
+# squares = [item ** 3 for item in range(1,11)]
+# print(squares)
