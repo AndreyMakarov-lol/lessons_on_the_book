@@ -83,7 +83,7 @@ countries = ['tailand', 'germany', 'usa',  'canada', 'china']
 # print(countries)
 #8
 #4.1-4.2
-# pizzas=['piperoni', 'margarita', 'bianca']
+pizzas=['piperoni', 'margarita', 'bianca']
 # for pizza in pizzas:
 #     print(f'this my like type pizza {pizza.title()}\n')
 # print('I like pizza')
@@ -106,3 +106,25 @@ countries = ['tailand', 'germany', 'usa',  'canada', 'china']
 #     print(item**3)
 # squares = [item ** 3 for item in range(1,11)]
 # print(squares)
+
+#4.10-4.12
+# elements = [item for item in range(10)]
+# print(elements)
+# print(f'Первые три пункта в списке - {elements[:3]}')
+# print(f'Три пункта в середине списка - {elements[3:6]}')
+# print(f'Последние три пункта в списке - {elements[-3:]}')
+#
+# friend_pizzas = pizzas[:]
+# pizzas.append('sea')
+# friend_pizzas.append('burger')
+#
+# for pizza in pizzas:
+#     print(pizza)
+#
+# for friend_pizza in friend_pizzas:
+#     print(friend_pizza)
+#
+# if pizzas == friend_pizzas:
+#     print('ok')
+# else:
+#     print('not ok')
