@@ -92,13 +92,13 @@ pizzas=['piperoni', 'margarita', 'bianca']
 # for item in range(1,21):
 # #     print(item)
 #
-# mil = list(range(1,1000001))
+# mil = upr(range(1,1000001))
 # # for item in mil:
 # #     print(item)
 # print(max(mil), min(mil), sum(mil))
 # # for item in range(1,21,2):
 # #     print(item)
-# three = list(range(3,31,3))
+# three = upr(range(3,31,3))
 # print(three)
 # for item in three:
 #     print(item)
@@ -128,3 +128,18 @@ pizzas=['piperoni', 'margarita', 'bianca']
 #     print('ok')
 # else:
 #     print('not ok')
+
+#4.13
+# menu=('soup','egg','coffe','tea','deer')
+# for item in menu:
+#     print(item)
+#
+# #menu[0]='vodka'
+#
+# menu=('vodka','burger','coffe','tea','deer')
+#
+# for item in menu:
+#     print(item)
+
+
+
