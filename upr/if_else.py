@@ -126,7 +126,7 @@
 #     else:
 #         print(f'{num}th')
 
-#6.1
+#6.1-6.7
 # person = {
 #     'first_name' : 'jenia',
 #     'last_name' : 'makarova',
@@ -160,16 +160,42 @@
 #     print(f'{termin.title()}:')
 #     print(f'{value.capitalize()}.\n')
 
-languages = {
-    'kolya' : 'c',
-    'andrey' : 'python',
-    'jenia' : 'rust'
-}
+# languages = {
+#     'kolya' : 'c',
+#     'andrey' : 'python',
+#     'jenia' : 'rust'
+# }
 
-persons = ['vania', 'kolya', 'olya', 'andrey', 'lena', 'jenia']
+# persons = ['vania', 'kolya', 'olya', 'andrey', 'lena', 'jenia']
 
-for item in persons:
-    if item in languages.keys():
-        print(f'{item.title()} ты уже голосовал(а)\n')
-    else:
-        print(f'{item.title()} проголосуй\n')
+# for item in persons:
+#     if item in languages.keys():
+#         print(f'{item.title()} ты уже голосовал(а)\n')
+#     else:
+#         print(f'{item.title()} проголосуй\n')
+
+# person_1 = {
+#     'first_name' : 'jenia',
+#     'last_name' : 'makarova',
+#     'city' : 'kyrchatov',
+# }
+
+# person_2 = {
+#     'first_name' : 'andrey',
+#     'last_name' : 'makarov',
+#     'city' : 'kyrchatov',
+# }
+
+# person_3 = {
+#     'first_name' : 'saha',
+#     'last_name' : 'mmerkulov',
+#     'city' : 'kyrsk',
+# }
+
+# persons = [person_1, person_2, person_3]
+
+# for person in persons:
+#     full_name = f'Full name {person['first_name'].title()} {person['last_name'].title()}'
+#     city = f'City: {person['city'].title()}'
+#     print(full_name, city)
+
