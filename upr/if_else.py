@@ -125,3 +125,51 @@
 #         print(f'{num}sd')
 #     else:
 #         print(f'{num}th')
+
+#6.1
+# person = {
+#     'first_name' : 'jenia',
+#     'last_name' : 'makarova',
+#     'city' : 'kyrchatov',
+# }
+
+# for key , value in person.items():
+#     print(f'it s key {key}, it value {value}\n')
+
+
+# nums = {
+#     'jenia' : 1,
+#     'anton' : 3,
+#     'andrey' : 56,
+#     'yasha' : 1488,
+#     'hz' : 0
+
+# }
+# for key , value in nums.items():
+#     print(f'it s key {key}, it value {value}\n')
+
+# golosariy = { 
+#     'python' : 'Язык програмирования, интерпретируемый, с простым синтаксисом',
+#     'интерпретатор' : 'программа транслирующая для исполнения компьютером инструкции',
+#     'словарь' : 'тип множества, прмнящий для хранения значения  в виде пары ключ-значение',
+#     'строка' : 'тип данных в которых хранится информация в виде набора символов',
+#     'интеджер' : 'тип данных для хранения простых чиел'
+# }
+
+# for termin, value in golosariy.items():
+#     print(f'{termin.title()}:')
+#     print(f'{value.capitalize()}.\n')
+
+languages = {
+    'kolya' : 'c',
+    'andrey' : 'python',
+    'jenia' : 'rust'
+}
+
+persons = ['vania', 'kolya', 'olya', 'andrey', 'lena', 'jenia']
+
+for item in persons:
+    if item in languages.keys():
+        print(f'{item.title()} ты уже голосовал(а)\n')
+    else:
+        print(f'{item.title()} проголосуй\n')
