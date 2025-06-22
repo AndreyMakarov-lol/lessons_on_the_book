@@ -126,7 +126,7 @@
 #     else:
 #         print(f'{num}th')
 
-#6.1-6.7
+#6.1-6.8
 # person = {
 #     'first_name' : 'jenia',
 #     'last_name' : 'makarova',
@@ -198,4 +198,105 @@
 #     full_name = f'Full name {person['first_name'].title()} {person['last_name'].title()}'
 #     city = f'City: {person['city'].title()}'
 #     print(full_name, city)
+#6.8-6.12
+# dog = {
+#     'name' : 'rex',
+#     'type' : 'dog',
+#     'boss' : 'andrey'
+# }
+# gosha = {
+#     'name' : 'gosha',
+#     'type' : 'parrot',
+#     'boss' : 'andrey'
+# }
+# shiskin = {
+#     'name' : 'shiskin',
+#     'type' : 'sqerel',
+#     'boss' : 'andrey lobodin'
+# }
+#
+# pets = [dog, gosha, shiskin]
+#
+# for pet in pets:
+#     print(f"""{pet['name'].title()}
+# {pet['type'].title()}
+# {pet['boss'].title()}\n""")
+
+
+# favorite_places = {
+#     'ivan' : ['kursk', 'lgov', 'piter'],
+#     'lexa' : ['kursk', 'piter'],
+#     'kolya' : ['lgov', 'piter'],
+# }
+#
+#
+# for name, places in favorite_places.items():
+#     print(f"""{name.title()} like to : {', '.join(places)}
+#             """)
+#
+# nums = {
+#     'jenia' : [1,4,5],
+#     'anton' : [3, 9, 0],
+#     'andrey' : [56, 57,87],
+#     'yasha' : [1488, 228],
+#     'hz' : [0, 1]
+#
+# }
+# for key , value in nums.items():
+#     print(f'it s key {key}, it value {value}\n')
+#
+#
+# cities ={
+#     'kursk' : {
+#         'country' : "Russia",
+#         'population' : 1488,
+#         'fact' : 'ia ne ottuda',
+#     },
+#     'kurchatov': {
+#         'country': "Russia",
+#         'population': 228,
+#         'fact': 'ia ottuda',
+#     },
+#     'belgorod' : {
+#         'country': "Russia",
+#         'population': 1000,
+#         'fact': 'ia tam ucilsia',
+#     }
+# }
+#
+#
+# for city, info in cities.items():
+#     print(f"""It is {city.title()}, and facts
+# in country - {info['country'].title()},
+# it population - {info['population']},
+# it fact - {info['fact'].capitalize()}\n""")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
