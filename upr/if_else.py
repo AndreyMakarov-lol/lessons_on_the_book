@@ -271,7 +271,17 @@
 # it population - {info['population']},
 # it fact - {info['fact'].capitalize()}\n""")
 
+#7.1-7.2
+# car=input('Какую тачку хочешь?\n')
 
+# print(f'Щас гляну есть ли {car.capitalize()}')
+
+table = int(input('На сколько мест сол?\n'))
+
+if table < 8:
+    print('Стол готов')
+else:
+    print('Подождать')
 
 
 
