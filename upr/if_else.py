@@ -276,13 +276,65 @@
 
 # print(f'Щас гляну есть ли {car.capitalize()}')
 
-table = int(input('На сколько мест сол?\n'))
+# table = int(input('На сколько мест сол?\n'))
+#
+# if table < 8:
+#     print('Стол готов')
+# else:
+#     print('Подождать')
+#
+#7.3
+# num = int(input("Enter number: "))
+#
+# if num % 10 == 0:
+#     print(f"{num} кратно 10")
+# else:
+#     print('не кратно 10')
 
-if table < 8:
-    print('Стол готов')
-else:
-    print('Подождать')
 
+#7.4
+# fillings = []
+# while True:
+#     filling = input('Введи начинку: ')
+#
+#     if filling == 'quit':
+#         print(f'Закончили вот твои начинки', ', '.join(fillings))
+#         break
+#
+#     else:
+#         fillings.append(filling)
+#         print(f'Добавили начигнку {filling}')
+
+#7.5
+# age = int(input('Введи возраст: '))
+#
+# if age < 3:
+#     print('Бесплатно')
+# elif age < 12:
+#     print('10')
+# else:
+#     print('15')
+#7.6
+# while True:
+#     age = input('Введи возраст: ')
+#
+#     if age == 'quit':
+#         break
+#     elif int(age) < 3:
+#         print('Бесплатно')
+#     elif int(age) < 12:
+#         print('10')
+#     else:
+#         print('15')
+
+#7.7
+
+#!!! ВНИМАНИЕ БЕСКОНЕЧНЫЙ ЦИКЛ !!!
+
+# while True:
+#     print('govno')
+
+#!!! ВНИМАНИЕ БЕСКОНЕЧНЫЙ ЦИКЛ !!!
 
 
 
