@@ -337,9 +337,50 @@
 #!!! ВНИМАНИЕ БЕСКОНЕЧНЫЙ ЦИКЛ !!!
 
 
+#7.8
 
+# sandwich_orders = ['pastrami', 'chees', 'chiken', 'pastrami', 'fish']
+# finished_sandwiches = []
+#
+# while sandwich_orders:
+#     finished_sandwiche = sandwich_orders.pop()
+#     print(f'Мы сделали сендвич с {finished_sandwiche}')
+#     finished_sandwiches.append(finished_sandwiche)
+#
+# print(finished_sandwiches)
 
+#7.9
 
+# sandwich_orders = ['pastrami', 'chees', 'chiken', 'pastrami', 'fish']
+# print('пастромани больше нет')
+# while 'pastrami' in sandwich_orders:
+#     sandwich_orders.remove('pastrami')
+# finished_sandwiches = []
+#
+# while sandwich_orders:
+#     finished_sandwiche = sandwich_orders.pop()
+#     print(f'Мы сделали сендвич с {finished_sandwiche}')
+#     finished_sandwiches.append(finished_sandwiche)
+#
+# print(finished_sandwiches)
+
+# responses = {}
+#
+# polling_active = True
+#
+# while polling_active:
+#     name = input("Введи свое имя ")
+#     response = input('Введи место где бы отдохнул ')
+#
+#     responses[name]= response
+#     #Проверка продолжения опроса
+#     repeat=input('продолжаем опрос да или нет')
+#     if repeat == 'нет':
+#         polling_active = False
+#
+# print('!---Результаты опроса---!')
+# for name, response in responses.items():
+#     print(f'{name.title()} хочет в {response.title()}')
 
 
 
