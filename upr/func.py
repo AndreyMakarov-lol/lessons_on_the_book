@@ -18,3 +18,13 @@
 # print(new_shirt)
 # last_shirt = make_shirt()
 # print(last_shirt)
+
+#8.5
+
+# def discribe_city(city , country = 'russia'):
+#     discribe = f'{city.title()} находится в {country.title()}'
+#     print(discribe)
+#
+# discribe_city('Питер')
+# discribe_city('Барселона', 'Испания')
+# discribe_city('Париж', 'Франция')
