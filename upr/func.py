@@ -93,3 +93,21 @@
 # show_messages(messages_text[:])
 # print(send_messages)
 # print(messages_text)
+
+
+#8.12
+# all_toppings = []
+# def sendwic(*toppings):
+#     print('in sendwich:')
+#     for topping in toppings:
+#         print(f'- {topping}')
+#
+# while True:
+#     topping_add = input('Write toppings or not: \n')
+#     if topping_add != 'not':
+#        all_toppings.append(topping_add)
+#     else:
+#         break
+#
+# print(all_toppings)
+# sendwic(*all_toppings)
