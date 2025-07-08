@@ -111,3 +111,26 @@
 #
 # print(all_toppings)
 # sendwic(*all_toppings)
+
+#8.13
+# def build_profile(first, last, **user_info):
+#     user_info['first'] = first
+#     user_info['last'] = last
+#     return user_info
+#
+# user_profile = build_profile('Andrey', 'Makarov',
+#                              car = 'reno', like = 'beer', wife = 'Jania')
+# print(user_profile)
+#8.14
+# def build_car(creator ,model, **car_info):
+#     return {'creator': creator, 'model': model, **car_info}
+#
+# car = build_car('reno','sandero', color = 'white', type = 'hatchback')
+#
+# print(f'This {car['creator'].title()}\n'
+#       f'Model: {car['model'].title()}')
+# for key, value in car.items():
+#     if key not in {'creator', 'model'}:
+#         print(f'{key.title()}: {value.title()}')
+
+
