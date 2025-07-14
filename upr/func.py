@@ -133,4 +133,22 @@
 #     if key not in {'creator', 'model'}:
 #         print(f'{key.title()}: {value.title()}')
 
+#8.15-16
+
+#import print_models
+#from print_models import print_models
+#from print_models import print_models as mod
+#import print_models as mod
+# from print_models import *
+# unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
+# completed_models = []
+# def show_completed_models(completed_models):
+#     print("\nThe following models have been printed:")
+#     for completed_model in completed_models:
+#         print(completed_model)
+#
+#
+#
+# print_models(unprinted_designs, completed_models)
+# show_completed_models(completed_models)
 
