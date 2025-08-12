@@ -64,8 +64,8 @@
 #         else:
 #             print("ТЫ ЧЕ ДЕЛАЕШЬ, ЧЕРТ ЕБАНЫЙ")
 #
-#
-#
+
+
 # restaurant = Restaurant('burger king', 'fast food')
 #
 # restaurant.describe_restaurant()
@@ -108,3 +108,26 @@
 # print(new_user.login_attempts)
 # new_user.reset_login_attempts()
 # print(new_user.login_attempts)
+
+
+# #9.6
+# #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+# #!!!Работает только при разблокированном классе упражнение 9.4!!!
+#
+# #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+# class IceCreamStand(Restaurant):
+#
+#     def __init__(self, restaurant_name, cuisine_type, flavors):
+#         super().__init__(restaurant_name, cuisine_type)
+#         self.flavors = flavors
+#
+#     def flavors_ice_cream(self):
+#         print(f' flavor: {self.flavors}')
+#
+#
+# restaurant_ice = IceCreamStand('burger king', 'fast food',['chocolate','milk'])
+#
+# restaurant_ice.describe_restaurant()
+# restaurant_ice.flavors_ice_cream()
