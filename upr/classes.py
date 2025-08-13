@@ -78,27 +78,27 @@
 
 
 #9.5
-
-class User:
-    def __init__(self, first_name, last_name, age, country):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
-        self.country = country
-        self.login_attempts = 0
-
-    def describe_user(self):
-        print(f'Name: {self.first_name.title()} {self.last_name.title()}\n'
-              f'Age: {self.age}\nCountry: {self.country.title()}')
-
-    def greet_user(self):
-        print(f'\nWelcome dear {self.first_name.title()} {self.last_name.title()}')
-
-    def increment_login_attempts(self):
-        self.login_attempts += 1
-
-    def reset_login_attempts(self):
-        self.login_attempts = 0
+#
+# class User:
+#     def __init__(self, first_name, last_name, age, country):
+#         self.first_name = first_name
+#         self.last_name = last_name
+#         self.age = age
+#         self.country = country
+#         self.login_attempts = 0
+#
+#     def describe_user(self):
+#         print(f'Name: {self.first_name.title()} {self.last_name.title()}\n'
+#               f'Age: {self.age}\nCountry: {self.country.title()}')
+#
+#     def greet_user(self):
+#         print(f'\nWelcome dear {self.first_name.title()} {self.last_name.title()}')
+#
+#     def increment_login_attempts(self):
+#         self.login_attempts += 1
+#
+#     def reset_login_attempts(self):
+#         self.login_attempts = 0
 
 # new_user = User('Jopa', 'Popa', 1488, 'iran')
 # new_user.increment_login_attempts()
@@ -152,3 +152,34 @@ class User:
 # admin = Admin('Andrey', 'Makarov', 29, 'Russia', ['Всех сажать', 'Бронировать'])
 # admin.describe_user()
 # admin.show_privileges()
+
+# #9.8
+# # #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# #
+# # #!!!Работает только при разблокированном классе упражнение 9.5!!!
+# #
+# # #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# #
+# class Privileges:
+#     def __init__(self, privileges):
+#         self.privileges = privileges
+#
+#
+#     def show_privileges(self):
+#          print('Privileges: ')
+#          for privileg in self.privileges:
+#              print(f'{privileg}')
+#
+# class Admin(User):
+#     def __init__(self, first_name, last_name, age, country, privileges):
+#         super().__init__( first_name, last_name, age, country)
+#         self.privileges = Privileges(privileges)
+#
+#
+# admin = Admin('Andrey', 'Makarov', 29, 'Russia', ['Всех сажать', 'Бронировать'])
+# admin.privileges.show_privileges()
+# admin.describe_user()
+
+
+#9.9
+
